@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="/node_modules/phaser/dist/phaser.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js"></script>
+    <style>
+        html,body {
+            margin:0;
+            width:100%;
+            height:100%;
+        }
+
+        #mupo-container {
+            width:1280px;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id='mupo-container'></div>
+    <script>
+        var baseGameSize = { width: 1280, height: 800 };
+
+        var config = {
+            type: Phaser.AUTO,
+            parent: 'mupo-container',
+            width: baseGameSize.width,
+            height: baseGameSize.height,
+            resolution: 1,
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    gravity: { y: 200 }
+                }
+            },
+            scene: {
+                preload: preload,
+                create: create,
+                update: update
+            }
+        };
+
+        var game = new Phaser.Game(config);
+
+        function preload ()
+        {
+            this.load.image('hero', 'assets/sprites/hero/run/2x.png');
+        }
+
+        function create ()
+        {
+            this.add.image(400, 300, 'hero');
+        }
+
+        function update () {
+
+        }
+    
+    </script>
+
+</body>
+</html>
