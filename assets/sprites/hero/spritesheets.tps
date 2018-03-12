@@ -199,45 +199,71 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">idle/2x/idle-0@2x.png</key>
-            <key type="filename">idle/2x/idle-10@2x.png</key>
-            <key type="filename">idle/2x/idle-11@2x.png</key>
-            <key type="filename">idle/2x/idle-1@2x.png</key>
-            <key type="filename">idle/2x/idle-2@2x.png</key>
-            <key type="filename">idle/2x/idle-3@2x.png</key>
-            <key type="filename">idle/2x/idle-4@2x.png</key>
-            <key type="filename">idle/2x/idle-5@2x.png</key>
-            <key type="filename">idle/2x/idle-6@2x.png</key>
-            <key type="filename">idle/2x/idle-7@2x.png</key>
-            <key type="filename">idle/2x/idle-8@2x.png</key>
-            <key type="filename">idle/2x/idle-9@2x.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-duck-0.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-duck-1.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-duck-2.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-duck-3.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-0.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-1.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-2.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-3.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-4.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-5.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-6.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-1up-0.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-1up-1.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-2midair-0.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-2midair-1.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-3down-0.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-3down-1.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-4land-0.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-4land-1.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-run-0.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-run-1.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-run-2.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-run-3.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-run-4.png</key>
+            <key type="filename">../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-run-5.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>38,39,75,77</rect>
+                <rect>16,16,32,32</rect>
                 <key>scale9Paddings</key>
-                <rect>38,39,75,77</rect>
+                <rect>16,16,32,32</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>idle/2x/idle-0@2x.png</filename>
-            <filename>idle/2x/idle-1@2x.png</filename>
-            <filename>idle/2x/idle-2@2x.png</filename>
-            <filename>idle/2x/idle-3@2x.png</filename>
-            <filename>idle/2x/idle-4@2x.png</filename>
-            <filename>idle/2x/idle-5@2x.png</filename>
-            <filename>idle/2x/idle-6@2x.png</filename>
-            <filename>idle/2x/idle-7@2x.png</filename>
-            <filename>idle/2x/idle-8@2x.png</filename>
-            <filename>idle/2x/idle-9@2x.png</filename>
-            <filename>idle/2x/idle-10@2x.png</filename>
-            <filename>idle/2x/idle-11@2x.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-run-0.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-run-1.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-run-2.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-run-3.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-run-4.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-run-5.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-duck-0.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-duck-1.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-duck-2.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-duck-3.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-1up-0.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-1up-1.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-2midair-0.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-2midair-1.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-3down-0.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-3down-1.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-4land-0.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-jump-4land-1.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-0.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-1.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-2.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-3.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-4.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-5.png</filename>
+            <filename>../../../../../../../Users/Darien/Documents/Mupo/opp-assets/sprites/humans/traveler/hero-idle-6.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
