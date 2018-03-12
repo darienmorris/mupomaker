@@ -36,7 +36,7 @@
         <key>dataFormat</key>
         <string>phaser</string>
         <key>textureFileName</key>
-        <filename>../../../dist/hero.png</filename>
+        <filename>../../../dist/sprites/hero.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -150,7 +150,7 @@
             <key>json</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../../dist/hero.json</filename>
+                <filename>../../../dist/sprites/hero.json</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -199,52 +199,54 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">idle/idle-0@1x.png</key>
-            <key type="filename">idle/idle-10@1x.png</key>
-            <key type="filename">idle/idle-11@1x.png</key>
-            <key type="filename">idle/idle-1@1x.png</key>
-            <key type="filename">idle/idle-2@1x.png</key>
-            <key type="filename">idle/idle-3@1x.png</key>
-            <key type="filename">idle/idle-4@1x.png</key>
-            <key type="filename">idle/idle-5@1x.png</key>
-            <key type="filename">idle/idle-6@1x.png</key>
-            <key type="filename">idle/idle-7@1x.png</key>
-            <key type="filename">idle/idle-8@1x.png</key>
-            <key type="filename">idle/idle-9@1x.png</key>
+            <key type="filename">idle/2x/idle-0@2x.png</key>
+            <key type="filename">idle/2x/idle-10@2x.png</key>
+            <key type="filename">idle/2x/idle-11@2x.png</key>
+            <key type="filename">idle/2x/idle-1@2x.png</key>
+            <key type="filename">idle/2x/idle-2@2x.png</key>
+            <key type="filename">idle/2x/idle-3@2x.png</key>
+            <key type="filename">idle/2x/idle-4@2x.png</key>
+            <key type="filename">idle/2x/idle-5@2x.png</key>
+            <key type="filename">idle/2x/idle-6@2x.png</key>
+            <key type="filename">idle/2x/idle-7@2x.png</key>
+            <key type="filename">idle/2x/idle-8@2x.png</key>
+            <key type="filename">idle/2x/idle-9@2x.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>20,20,41,40</rect>
+                <rect>38,39,75,77</rect>
                 <key>scale9Paddings</key>
-                <rect>20,20,41,40</rect>
+                <rect>38,39,75,77</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>idle/idle-0@1x.png</filename>
-            <filename>idle/idle-1@1x.png</filename>
-            <filename>idle/idle-2@1x.png</filename>
-            <filename>idle/idle-3@1x.png</filename>
-            <filename>idle/idle-4@1x.png</filename>
-            <filename>idle/idle-5@1x.png</filename>
-            <filename>idle/idle-6@1x.png</filename>
-            <filename>idle/idle-7@1x.png</filename>
-            <filename>idle/idle-8@1x.png</filename>
-            <filename>idle/idle-9@1x.png</filename>
-            <filename>idle/idle-10@1x.png</filename>
-            <filename>idle/idle-11@1x.png</filename>
+            <filename>idle/2x/idle-0@2x.png</filename>
+            <filename>idle/2x/idle-1@2x.png</filename>
+            <filename>idle/2x/idle-2@2x.png</filename>
+            <filename>idle/2x/idle-3@2x.png</filename>
+            <filename>idle/2x/idle-4@2x.png</filename>
+            <filename>idle/2x/idle-5@2x.png</filename>
+            <filename>idle/2x/idle-6@2x.png</filename>
+            <filename>idle/2x/idle-7@2x.png</filename>
+            <filename>idle/2x/idle-8@2x.png</filename>
+            <filename>idle/2x/idle-9@2x.png</filename>
+            <filename>idle/2x/idle-10@2x.png</filename>
+            <filename>idle/2x/idle-11@2x.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
         <key>replaceList</key>
         <array/>
         <key>ignoredWarnings</key>
-        <array/>
+        <array>
+            <string>phaser3-exporter-beta</string>
+        </array>
         <key>commonDivisorX</key>
         <uint>1</uint>
         <key>commonDivisorY</key>
