@@ -59,12 +59,20 @@
 
         function preload ()
         {
-            this.load.image('hero', 'assets/sprites/hero/run/2x.png');
+            this.load.atlas('hero', 'dist/sprites/hero.png', 'dist/sprites/hero.json');
         }
 
         function create ()
         {
-            this.add.image(400, 300, 'hero');
+            var hero = this.add.sprite(400, 300, 'hero', 'idle-0@2x.png');
+            var idleFrames = this.anims.generateFrameNames('hero', {
+                 start: 0, end: 11, zeroPad: 1,
+                 prefix: 'idle-', suffix: '@2x.png'
+             });
+
+            this.anims.create({ key: 'idle', frames: idleFrames, frameRate: 15, repeat: -1 });
+            hero.anims.play('idle');
+
 
             window.onresize = function () {
                 game.renderer.config.resolution = getResolution();
